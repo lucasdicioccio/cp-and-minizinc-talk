@@ -1,0 +1,4 @@
+n_users = 2;
+size = 2;
+weight = [5,3];
+tolerance = 2;
