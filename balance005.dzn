@@ -1,12 +1,12 @@
 n_users = 5;
-size = 2;
+size = 5;
 weight = [5,3,1,1,1];
-tolerance = 0;
+tolerance = 1;
 use_balance = 2;
 
 preferred = [|2,2,
              |1,1,
              |-2,-2,
              |-2,-1,
-             |0,0
+             |5,3
              |]

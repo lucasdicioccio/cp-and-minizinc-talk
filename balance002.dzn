@@ -2,3 +2,8 @@ n_users = 2;
 size = 2;
 weight = [5,3];
 tolerance = 2;
+use_balance = 1;
+
+preferred = [|0,0,
+             |3,0
+             |]
