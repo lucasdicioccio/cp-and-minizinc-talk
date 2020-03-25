@@ -30,7 +30,7 @@ constraint imbalance2_y = sum(u in USER)( abs(y[u]) * weight[u] *  (bool2int(y[u
 
 % constraint: tolerance on imbalance
 constraint (use_balance = 1) -> abs(imbalance1_x) <= tolerance  /\ abs(imbalance1_y) <= tolerance;
-constraint (use_balance = 2) -> abs(imbalance1_x) <= tolerance  /\ abs(imbalance1_y) <= tolerance;
+constraint (use_balance = 2) -> abs(imbalance2_x) <= tolerance  /\ abs(imbalance2_y) <= tolerance;
 
 % constraint: at most one user per sit
 constraint forall(u1, u2 in USER where u1 < u2)
