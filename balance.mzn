@@ -62,7 +62,7 @@ output [ "happy = \(happy_cnt)\n"
        , "(x,y)+ = \(imbalance2_x) \(imbalance2_y)\n"
        ] ++
        [  concat([ if fix(happy[user0[idx_x,idx_y]])
-                   then "\(weight0[user0[idx_x,idx_y]])+ "
+                   then "\(weight0[user0[idx_x,idx_y]])◊ "
                    else "\(weight0[user0[idx_x,idx_y]])  "
                    endif
                  | idx_x in POS_X]) ++ "\n"
