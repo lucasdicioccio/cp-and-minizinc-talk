@@ -12,3 +12,4 @@ Support code and data for talks about Constraint Programming and MiniZinc.
 ## Others
 
 - `./bridge.mzn` chicken-fox-grain bridge-crossing puzzle
+- `./terrain.mzn` some terrain generator

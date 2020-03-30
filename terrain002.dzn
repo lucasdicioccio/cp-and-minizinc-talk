@@ -1,0 +1,18 @@
+xlen = 30;
+ylen = 10;
+TILE = {Forest,Coast,Sea,Mountain,Desert,Plain,City};
+display =
+  ["🌳", "🏖", "🌊", "⛰", "🐪","⃞","🏕"];
+min_weight =
+  [0, 0, 0, 10, 7, 0, 5];
+max_weight =
+  [300, 300, 300, 300, 100, 300, 20];
+txs =
+  [|Forest,Coast,
+   |Coast,Sea,
+   |Mountain,Forest,
+   |Mountain,Desert,
+   |Plain,Desert,
+   |Forest,Plain
+   |Plain,City
+   |];

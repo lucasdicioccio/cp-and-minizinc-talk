@@ -1,0 +1,14 @@
+xlen = 20;
+ylen = 10;
+TILE = {Forest,Coast,Sea,Mountain};
+display =
+  ["🌳", "🏖", "🌊", "⛰"];
+min_weight =
+  [60, 10, 30, 10];
+max_weight =
+  [150, 50, 50, 20];
+txs =
+  [|Forest,Coast,
+   |Coast,Sea,
+   |Mountain,Forest,
+   |];
